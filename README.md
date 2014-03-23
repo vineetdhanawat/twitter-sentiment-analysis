@@ -43,73 +43,37 @@ All the services will send you emails in one or the other formats, which is easy
 Top 10 Positive and Negative words
 <table>
 	<tr>
-		<th>word</th><th>weight</th>
+		<th>word</th><th>weight</th><th>word</th><th>weight</th>
 	</tr>
 	<tr>
-		<td>thank</td><td>0.06800427050495744</td>
+		<td>thank</td><td>0.06800427050495744</td><td>sad</td><td>0.06904954519705979</td>
 	</tr>
 	<tr>
-		<td>love</td><td>0.04238921785592977</td>
+		<td>love</td><td>0.04238921785592977</td><td>miss</td><td>0.06799716497097386</td>
 	</tr>
 	<tr>
-		<td>good</td><td>0.03864780316342833</td>
+		<td>good</td><td>0.03864780316342833</td><td>sorri</td><td>0.06447410364223946</td>
 	</tr>
 	<tr>
-		<td>great</td><td>0.03332699835307452</td>
+		<td>great</td><td>0.03332699835307452</td><td>wish</td><td>0.04964308132602499</td>
 	</tr>
 	<tr>
-		<td>quot</td><td>0.028049576202737663</td>
+		<td>quot</td><td>0.028049576202737663</td><td>suck</td><td>0.04549754050714666</td>
 	</tr>
 	<tr>
-		<td>welcom</td><td>0.028045093611976712</td>
+		<td>welcom</td><td>0.028045093611976712</td><td>bad</td><td>0.03882145370669514</td>
 	</tr>
 	<tr>
-		<td>awesom</td><td>0.027883840586310205</td>
+		<td>awesom</td><td>0.027883840586310205</td><td>hate</td><td>0.038814744730334146</td>
 	</tr>
 	<tr>
-		<td>haha</td><td>0.027711586964757735</td>
+		<td>haha</td><td>0.027711586964757735</td><td>work</td><td>0.038456277249749565</td>
 	</tr>
 	<tr>
-		<td>nice</td><td>0.026502431781819224</td>
+		<td>nice</td><td>0.026502431781819224</td><td>poor</td><td>0.03537374379337165</td>
 	</tr>
 	<tr>
-		<td>happi</td><td>0.024842171425360552</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>word</th><th>weight</th>
-	</tr>
-	<tr>
-		<td>sad</td><td>0.06904954519705979</td>
-	</tr>
-	<tr>
-		<td>miss</td><td>0.06799716497097386</td>
-	</tr>
-	<tr>
-		<td>sorri</td><td>0.06447410364223946</td>
-	</tr>
-	<tr>
-		<td>wish</td><td>0.04964308132602499</td>
-	</tr>
-	<tr>
-		<td>suck</td><td>0.04549754050714666</td>
-	</tr>
-	<tr>
-		<td>bad</td><td>0.03882145370669514</td>
-	</tr>
-	<tr>
-		<td>hate</td><td>0.038814744730334146</td>
-	</tr>
-	<tr>
-		<td>work</td><td>0.038456277249749565</td>
-	</tr>
-	<tr>
-		<td>poor</td><td>0.03537374379337165</td>
-	</tr>
-	<tr>
-		<td>want</td><td>0.03312521661076012</td>
+		<td>happi</td><td>0.024842171425360552</td><td>want</td><td>0.03312521661076012</td>
 	</tr>
 </table>
 
