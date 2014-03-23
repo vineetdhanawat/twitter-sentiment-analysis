@@ -1,3 +1,7 @@
+/**
+* This file is used to extract TEXT out of emails in the given format - IFTTT
+*/
+
 import java.io.*;
 
 public class FileRead {
