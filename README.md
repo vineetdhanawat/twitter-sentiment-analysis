@@ -21,9 +21,10 @@ All the services will send you emails in one or the other formats, which is easy
 1. Twitter training dataset taken from http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/ .
 2. Parsed and formatted training datasets for 1.5M and .1M tweets has been included.
 3. BITS Pilani Dataset containing tweets for the duration January 20, 2012 to September 27, 2012
-4. Rapidminer 5.3 with -Xms2048m -Xmx3072m took around 20 hours in SVM model for 0.1 Million rows dataset. Unless you have a better computing machine, training on 1.5M may take 3-4 weeks!
+4. Use Rapidminer 5.3 with -Xms2048m -Xmx3072m for faster calculations. Though other models are faster, SVM is really slow and so avoid using more than 0.1 Million dataset.
 
-## Performance Vector (SVM model)
+## SVM model (~20 hours)
+### Performance Vector
 <table>
 	<tr>
 		<th></th><th>true 0</th><th>true 1</th><th>class precision</th>
@@ -39,7 +40,7 @@ All the services will send you emails in one or the other formats, which is easy
 	</tr>
 </table>
 
-## Stats
+### Stats
 Top 10 Positive and Negative words
 <table>
 	<tr>
@@ -77,13 +78,40 @@ Top 10 Positive and Negative words
 	</tr>
 </table>
 
-Total Tweets Ratio
+### Sentiment Ratio
 <table>
 	<tr>
 		<td>Positive Tweets</td><td>4759</td>
 	</tr>
 	<tr>
 		<td>Negative Tweets</td><td>1552</td>
+	</tr>
+</table>
+
+## Naive Bayes (~4 hours)
+### Performance Vector
+<table>
+	<tr>
+		<th></th><th>true 0</th><th>true 1</th><th>class precision</th>
+	</tr>
+	<tr>
+		<td>pred. 0</td><td>34413</td><td>36884</td><td>48.27%</td>
+	</tr>
+	<tr>
+		<td>pred. 1</td><td>9111</td><td>19575</td><td>68.24%</td>
+	</tr>
+	<tr>
+		<td>class recall</td><td>79.07%</td><td>34.67%</td><td></td>
+	</tr>
+</table>
+
+### Sentiment Ratio
+<table>
+	<tr>
+		<td>Positive Tweets</td><td>3436</td>
+	</tr>
+	<tr>
+		<td>Negative Tweets</td><td>2875</td>
 	</tr>
 </table>
 
